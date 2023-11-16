@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(208, 235, 253);
+}
+main{
+    display: flex;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+header{
+    width: 45;
+    margin: auto;
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(8, 8, 32);
+    text-transform: uppercase;
+}
+ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 100%;
+}
+footer a {
+	color: rgba(0, 0, 0, 0.8);
+}
