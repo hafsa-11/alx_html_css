@@ -309,7 +309,10 @@
   
   /* Section (all styles)
       ============================= */
-  
+     .section-services {
+        padding: 0%;
+        border: 0cap;
+    }
   .section {
     padding: var(--section-padding);
   }
@@ -449,9 +452,7 @@
 
   /* Card SERVICES
       ============================= */
-    .section-services {
-        display: flex;
-    } 
+    
   
   .card-services .card-title {
     margin: 0;
