@@ -1,0 +1,1 @@
+Flexbox simplifies the creation of flexible and fluid designs, reducing the need for complex positioning and floatss
