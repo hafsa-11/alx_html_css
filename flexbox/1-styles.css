@@ -449,11 +449,7 @@
 
   /* Card SERVICES
       ============================= */
-      .section-services {
-        padding: 0%;
-        border: 0cap;
-      }
-  
+      
   .card-services .card-title {
     margin: 0;
   }
