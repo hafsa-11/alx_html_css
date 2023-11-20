@@ -383,10 +383,7 @@
   
   /* Card WORK
       ============================= */
-   .row,
-   section-works {
-    display: flex;
-    }
+  
   .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -448,25 +445,11 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
-  /* Card ABOUT
-      ============================= */
-      .row,
-      .section-about-us {
-        display: flex;
-    }
-    /* Card LATEST-NEWS
-      ============================= */
-     .row,
-     .section-latest-news {
-        display: flex;
-    }
+ 
 
   /* Card SERVICES
       ============================= */
-      
-  .section-services {
-    display: flex;
-   }
+   
   
   .card-services .card-title {
     margin: 0;
@@ -488,10 +471,7 @@
   
   /* Card TESTIMONIAL
       ============================= */
-    .row,
-    .section-testimonial {
-        display: flex;
-    }
+    
 
   .card-testimonial {
     text-align: center;
@@ -522,9 +502,4 @@
     font-size: 10rem;
     z-index: -1;
   }
-  /* Card CONTACT
-      ============================= */
-      .row,
-     .section-contact {
-        display: flex;
-    }
+  
