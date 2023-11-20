@@ -449,7 +449,9 @@
 
   /* Card SERVICES
       ============================= */
-   
+    .section-services {
+        display: flex;
+    } 
   
   .card-services .card-title {
     margin: 0;
@@ -459,7 +461,7 @@
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
-  }
+   }
   
   .card-services a:hover {
     color: var(--color-white);
