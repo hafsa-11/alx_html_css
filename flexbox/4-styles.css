@@ -184,7 +184,7 @@
   }
   
   ul.row {
-    margin: -1;
+    margin: -1rem;
     padding: 0;
     list-style: none;
     
@@ -192,7 +192,7 @@
   
   
   [class*='col-'] {
-    padding: 1rem;
+    margin: 1rem;
   }
   
   .col-1-3 {
