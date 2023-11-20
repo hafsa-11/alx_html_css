@@ -309,14 +309,14 @@
   
   /* Section (all styles)
       ============================= */
-     .section-services {
-        padding: 0%;
-        border: 0cap;
-    }
+     
   .section {
     padding: var(--section-padding);
   }
-  
+  .section-services {
+    padding: 0%;
+    border: 0cap;
+  }
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
